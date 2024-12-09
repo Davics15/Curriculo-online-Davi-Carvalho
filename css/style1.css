@@ -1,0 +1,215 @@
+/*
+******* LIMPAR FOMRATAÇÕES *********
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+/*
+******** FORMATAÇÕES GENÉRICAS ********
+*/
+
+#principal{
+    width: 1050px;
+    margin: auto;
+    background-color: #0F6466;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #D9CCC1;
+    
+
+}
+
+h1{
+    color: #2C3532;
+    font-size: 40px;
+}
+
+h2{
+    color: #023E73;
+}
+
+h3{
+    color: #e6e6e6;
+    background: #024059;
+    padding: 5px;
+}
+/*
+******** HEADER ********
+*/
+#header {
+    background-color: #8C503A;
+    padding: 15px;
+    text-align: center;
+}
+
+#logo, #menu {
+    padding: 10px;
+}
+
+#header a:link, #header a:visited{
+    color: rgb(255, 255, 255);
+    padding: 8px 12px;
+    
+}
+
+#header a:hover {
+    color: white;
+    background: #A5A692;
+    text-decoration: none;
+
+}
+
+.white {
+    color: #D2E8E3;
+}
+
+#subtitulo{
+    background-color: #252525;
+    width: 250px;
+    border-radius: 50px 1px;
+    
+    margin: 0 auto;
+    
+}
+
+.sub-jogo{
+    color: white;
+}
+
+/*
+******** CONTEÚDO ********
+*/
+
+#content {
+    margin: 0 auto;
+    width: 920px;
+    padding: 15px;
+    border: 1px;
+
+}
+
+.lista_formacao{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 3%;
+    padding: 5px;
+
+}
+.lista_formacao, ul, li{
+    padding: 2%;
+}
+
+#postagens {
+    width: 660px;
+    float: left;
+
+
+}
+
+.postagem {
+    padding: 7%;
+    margin-bottom: 20px;
+    background: white;
+    text-align: justify;
+    border-radius: 4%;
+    font-size: 18px;
+}
+
+
+.postagem_data {
+    font-size: 13px;
+    border-bottom: 1px solid #023E73;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.postagem_img{
+    width: 180px;
+    float: left;
+    margin-right: 15px;
+    border-radius: 20%;
+}
+
+/*
+******** RIGHT SIDE ********
+*/
+
+#a_direita{
+    width: 240px;
+    float: right;
+
+    
+
+}
+
+.conteudo_direita{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5%
+    
+    
+}
+
+.post-right{
+    font-size: 13px;
+    padding: 5px;
+    border-bottom: 1px dotted #cccccc;
+    
+    
+
+}
+
+/*
+********FORMATAÇÃO LINKS********
+*/
+
+a{
+    text-decoration: none;
+}
+
+a:link, a:visited{
+    color: #0066cc;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+/*
+******** FOOTER ********
+*/
+
+#footer{
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: white;
+    color: #ffffff;
+    background-color: #8C503A;
+    
+
+}
+
+/*
+******** TESTES ********
+*/
+
+.sobre_mim::first-letter {
+    color: #023E73;
+    font-size: xx-large;
+}
+
+.sobre_mim::first-line {
+    color: #023E73;
+    font-variant: small-caps;
+
+}
